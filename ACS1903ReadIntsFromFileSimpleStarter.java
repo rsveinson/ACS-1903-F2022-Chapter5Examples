@@ -1,37 +1,34 @@
-
+import java.io.File;
+import java.io.FileNotFoundException;
 /*******************************************************
  * Name:        Sveinson
  * Class:       ACS-1903
  * 
- * Assignment:  Convert to Methods
+ * Assignment:  numberic file data example
  * 
- * Description: Take a simple program and convert it so that as much of 
- *              the processing as possible is encapsulated using static
- *              methods.
+ * Description: Read a list of ints from a file
  **********************************************************************/
 
 // import statements go here
  import java.util.Scanner;
  import javax.swing.JOptionPane;
 
-public class ExampleTemplate {
-    public static void main(String[] args) {
-    // ****** Declaration of Constants *****
-    
-    // ***** Declaration of Variables *****
+public class ACS1903ReadIntsFromFileSimpleStarter {
+    public static void main(String[] args) throws FileNotFoundException{    
+    // ***** Variables and Constants *****
                    
-        Scanner scanner = new Scanner(System.in);        
+        // create the Scanner to read the file        
 
     // ***** Output Banners *****
     
         System.out.println("****************************");
         System.out.println("Name: Sveinson");
         System.out.println("Class: ACS-1903");
-        System.out.println("Assignment: Simple Event Loop");
+        System.out.println("Assignment: Read Ints from a file");
         System.out.println("****************************\n");
   
     
-    // ***** get some input from the keyboard *****
+    // ***** read the contents of the file *****
       
     // ***** Processing *****
 
