@@ -51,8 +51,12 @@ public class ACS1903UsingMathexamples {
         // Math.round()
         // by default return a long to get an int add f (for float) to the 
         // argument
-        n = Math.round(456.52f);
-        System.out.println(n);
+        // n = Math.round(456.52f);
+        // System.out.println(n);
+        
+        // or
+        // n = (int)Math.round(456.52);
+        // System.out.println(n);
         
         
         
