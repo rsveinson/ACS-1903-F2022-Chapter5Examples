@@ -23,6 +23,8 @@ public class ACS1903UsingIntegerExamples {
         int m = 0;
         int p = 0;
         
+        String st;
+        
       
     // ***** do some Integer experiments *****
     
@@ -41,6 +43,25 @@ public class ACS1903UsingIntegerExamples {
         
         // toString
         System.out.println(Integer.toString(m));
+        
+        // parseInt
+        st = "12345";
+        
+        // we know this won't work
+        //p = m + st;
+        
+        // parse the string as an int
+        n = Integer.parseInt(st);
+        p = m + n;              // now it works
+        
+        // beware
+        //n = Integer.parseInt("1,234.34");
+        //n = Integer.parseInt("1,234");
+        //n = Integer.parseInt("$1234");
+        
+        
+        
+        
         
         
         
