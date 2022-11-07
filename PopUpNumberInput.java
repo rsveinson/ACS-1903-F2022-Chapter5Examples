@@ -52,7 +52,7 @@ public class PopUpNumberInput {
         n = Integer.parseInt(inputScanner.next());
         x = Double.parseDouble(inputScanner.next());
         
-    // or
+    
        
     // ***** output *****
     
